@@ -54,7 +54,7 @@ class ChatServer:
                     break
                 else:
                     for client in self.clients:
-                        client.sendall(data)
+                        client[0].sendall(data)
 
             except Exception as e:
                 print("Error:", e)
