@@ -2,6 +2,7 @@ import socket
 from threading import Thread
 import getpass as gpass
 
+# This is a new line of text!
 
 class ChatClient:
     def __init__(self, username):
